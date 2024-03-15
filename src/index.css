@@ -1,0 +1,181 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+/*MainLayout */
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+span:hover {
+  color: #1890ff;
+}
+.logo {
+  height: 100px;
+  margin: 16px;
+}
+.logo img {
+  object-fit: scale-down;
+  max-width: 100%;
+}
+.ant-layout {
+  min-height: 100vh;
+}
+.ant-layout-sider {
+  flex: 0 0 300px !important;
+  max-width: 300px !important;
+  min-width: 300px !important;
+  width: 300px !important;
+}
+.ant-layout-sider-collapsed {
+  flex: 0 0 100px !important;
+  max-width: 100px !important;
+  min-width: 100px !important;
+  width: 100px !important;
+}
+.sm-logo {
+  display: none;
+  transition: 0.1s;
+}
+.ant-menu-submenu, .ant-menu-item {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.ant-layout-sider-collapsed .sm-logo {
+  display: block;
+}
+.ant-layout-sider-collapsed .lg-logo {
+  display: none;
+}
+main {
+  overflow-y: scroll;
+  background-color: transparent;
+}
+main::-webkit-scrollbar{
+  width: 0;
+}
+.ant-menu {
+  font-size: 20px !important;
+  font-weight: 300 !important;
+}
+.ant-layout-header {
+  height: 80px;
+  border-bottom: 1px groove gainsboro;
+}
+.ant-layout-header h5{
+  line-height: 20px;
+  font-size: 14px;
+}
+.ant-layout-header p{
+  line-height: 20px;
+  font-size: 13px;
+}
+.ant-layout-header .badge {
+  top: 16px;
+  right: 290px;
+}
+/* MainLayout End*/
+/* Dashboard*/
+.calculator {
+  height: 20vh;
+}
+.calculator .col {
+  position: static;
+  height: 80%;
+  border: 1px groove gainsboro;
+  display: flex;
+  justify-content: space-between;
+}
+.calculator .left {
+  display: flex;
+  flex-flow: column nowrap;
+  position: static;
+  height: 100%;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.calculator .right {
+  display: flex;
+  flex-flow: column nowrap;
+  position: static;
+  justify-content: space-between;
+  align-items: end;
+}
+.calculator .right .percent {
+  display: flex;
+  align-items: center;
+}
+.user {
+  background-color: white;
+  width: 31%;
+  border: 1px groove gainsboro;
+}
+.user-online {
+  display: flex;
+  flex-wrap: wrap;
+  position: static;
+  background-color: #febd69;
+  height: 30%;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+.user-online h1{
+  size: 50%;
+  position: static;
+  font-weight: 800;
+  color:green;
+}
+.dashboard .orders {
+  border: 1px groove gainsboro;
+  min-height: 800px;
+background-color: white;
+} 
+.dashboard .ant-table-body {
+  max-height: 800px !important;
+}
+.pie {
+  background-color: white;
+  border: 1px groove gainsboro;
+}
+.pie-chart {
+  position: relative;
+  top: 15%;
+}
+.income-static {
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border: 1px groove gainsboro;
+}
+.chart {
+  height: 40vh;
+}
+/*Dashboard End*/
+/*List*/
+.list a {
+  text-decoration: none;
+  color: grey;
+}
+.list .ant-table-row {
+  max-height: 65px;
+}
+.list button span:hover{
+  color:white;
+}
+/*List end*/
+a {
+  text-decoration: none;
+  color: grey;
+}
+.ql-editor {
+  min-height: 200px;
+}
+/*Add product*/
+.basic-information, .pricing, .product-images, .features {
+  background-color: white;
+  border: 1px groove gainsboro;
+}
+/*Add product end*/
